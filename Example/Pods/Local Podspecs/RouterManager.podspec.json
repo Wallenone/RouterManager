@@ -1,0 +1,22 @@
+{
+  "name": "RouterManager",
+  "version": "0.1.0",
+  "summary": "A short description of RouterManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wanjiehuizhaofang/RouterManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wanjiehuizhaofang": "wanjie@huizhaofang.com"
+  },
+  "source": {
+    "git": "https://github.com/wanjiehuizhaofang/RouterManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RouterManager/Classes/**/*"
+}
