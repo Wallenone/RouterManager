@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RouterManager'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of RouterManager.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'www.baidu.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wanjiehuizhaofang' => 'wanjie@huizhaofang.com' }
+  s.author           = { 'wallen' => '910082734@qq.com' }
   s.source           = { :git => 'https://github.com/Wallenone/RouterManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

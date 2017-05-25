@@ -22,7 +22,29 @@ pod "RouterManager"
 
 ## Author
 
-wanjiehuizhaofang, wanjie@huizhaofang.com
+wallen, 910082734@qq.com
+
+
+Example
+
+#import "RouterManager.h"
+
+[RouterManager PresentViewConrollerName:@"viewController1" parameters:@{@"label1":@"红色"}];
+
+[RouterManager dismissViewControllerCompletion:^{
+NSLog(@"出去啦");
+}];
+
+
++ (void) pushViewConrollerName:(NSString *)viewControllerName parameters:(NSDictionary *)parnmerter ;
++ (void) PresentViewConrollerName:(NSString *)viewControllerName parameters:(NSDictionary *)parnmerter ;
++ (void) popRootViewController;
++ (void) popViewController;
++ (void) popToViewController:(NSString *)aController params:(NSDictionary *)aParams;
++ (void) dismissViewControllerCompletion:(void (^)(void))completion;
+
+
+
 
 ## License
 
